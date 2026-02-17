@@ -1,6 +1,6 @@
 :root {
   color-scheme: light;
-  --bg: #fdf6ec;
+  --bg: #ffffff;
   --bg-alt: #ffffff;
   --border-strong: #000000;
   --border-subtle: rgba(15, 23, 42, 0.12);
@@ -34,18 +34,7 @@ body {
   min-height: 100vh;
   font-family: var(--font-body);
   background-color: var(--bg);
-  background-image: radial-gradient(
-      circle at top left,
-      rgba(15, 23, 42, 0.06) 1px,
-      transparent 0
-    ),
-    radial-gradient(
-      circle at bottom right,
-      rgba(15, 23, 42, 0.05) 1px,
-      transparent 0
-    );
-  background-size: 110px 110px, 160px 160px;
-  background-position: 0 0, 40px 40px;
+  background-image: none;
   color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
@@ -188,6 +177,12 @@ body {
   font-size: 0.94rem;
 }
 
+.policy-date {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+}
+
 .policy-section {
   padding-bottom: 3.2rem;
 }
@@ -293,7 +288,7 @@ body {
 
 .site-footer {
   border-top: 1px solid rgba(15, 23, 42, 0.12);
-  background: #f9f4ea;
+  background: #ffffff;
   padding: 1.4rem 0 1.6rem;
 }
 
