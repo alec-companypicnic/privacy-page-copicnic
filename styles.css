@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "Nichrome 0.5 Ultra";
+  src: url("Nichrome0.5-Ultra.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nichrome 0.5 Regular";
+  src: url("Nichrome0.5-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Install Rounded Trial";
+  src: url("Install-rounded-trial-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Install Rounded Trial";
+  src: url("Install-rounded-trial-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light;
   --bg: #ffffff;
